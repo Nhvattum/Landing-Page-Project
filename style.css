@@ -1,0 +1,195 @@
+*{
+    font-family: Roboto, Motserrat, Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-around;
+    color: #E5E7EB;
+    padding-left: 90px;
+    padding-right: 120px;
+}
+
+ul{
+    /* margin-left: auto; */
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sec-1{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 100px;
+    gap: 33px;
+}
+
+.sec-1-text{
+    width: 400px;
+}
+
+.sec-1-text h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #E5E7Eb;
+    margin: 0;
+}
+
+.sec-1 p{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.sec-1-img img{
+    width: 400px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 125px;
+    height: 35px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 10px; 
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.sec-2-title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sec-2-cards{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: center;
+    text-align: center;
+    gap: 45px;
+}
+
+
+.card{
+    /* width: 125px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+} 
+
+
+.sec-2-cards img{
+    width: 125px;
+    flex: 1;
+    /* Not sure I want a border around the language logos... */
+    border: 3px solid royalblue;
+    border-radius: 8px;
+}
+
+figcaption{
+    width: 125px;
+}
+
+.sec-3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.sec-3-text{
+    font-size: 36px;
+    color: #1F2937;
+    width: 750px;
+}
+.sec-3 .sec-3-text{
+    display: flex;
+    flex-direction: column; 
+}
+
+.quote{
+    display: flex;
+}
+
+.attribution{
+    margin-left: auto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sec-4-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 89px;
+}
+
+.sec-4{
+    display: flex;
+    background-color: #3882F6;
+    padding: 45px 100px;
+    width: 800px;
+    border-radius: 4px;
+}
+
+.sec-4 .call-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #F9FAF8;
+}
+
+.call-button{
+    color: 3882F6;
+}
+
+.call-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.button-directions{
+    font-size: 1.25rem;
+}
+
+p{
+    margin: 0 0 1px 0;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+
+    height: 89px;
+    align-items: center;
+    justify-content: center;
+}
